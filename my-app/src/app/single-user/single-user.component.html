@@ -1,0 +1,8 @@
+<!-- user-item.component.html -->
+<div class="card-container shadow p-1 rounded">
+    <img [src]="user.avatar_url" class="user-icon" alt="Avatar">
+    <div class="text-container mx-2">
+        <p class="user-name">{{user.login}}</p>
+        <a (click)="visitProfile(user.html_url)" class="visit-tag">Visit Profile</a>
+</div>
+  </div>

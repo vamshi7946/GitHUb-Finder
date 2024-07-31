@@ -1,0 +1,19 @@
+  <div class="cards-container" *ngIf="users && users.items.length > 0">
+    <div class="cards-inner-container row" *ngFor="let user of users.items; let i= index">
+        <div class="col-4">
+            <app-single-user [user]="user"></app-single-user>
+        </div>
+    </div>
+    <div class="btn-container">
+      <button (click)="handlePrev()" [disabled]="page===1" class="btn btn-outline-success">Prev</button>
+      <button (click)="handleNext()" class="btn btn-outline-success">Next</button>
+    </div>
+  </div>
+  <div *ngIf="!users" style="background-color: #2e263b;height: 100vh;"> 
+    <p class="text-center my-5" style="color: aliceblue;">Loading...</p>
+  </div>
+  <div *ngIf="users && users.items.length === 0"> 
+    <p>No users found.</p>
+  </div>
+
+  <router-outlet/>

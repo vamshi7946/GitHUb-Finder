@@ -1,0 +1,31 @@
+<div class="login-outer-container">
+  <div class="login-container">
+    <p class="login-heading">Login here</p>
+    <div class="login-inner-container form-group">
+      <form class="form login-form" #loginForm="ngForm" (ngSubmit)="login()">
+        <label for="username" class="label">Email: </label
+        ><input
+          type="email"
+          name="email"
+          required
+          class="input-field form-control"
+          [(ngModel)]="email"
+        />
+        <label for="password" class="label">Password: </label
+        ><input
+          type="password"
+          name="password"
+          required
+          class="input-field form-control"
+          [(ngModel)]="password"
+        /><br />
+        <button class="btn btn-outline-info submit-button">Login</button>
+        <div class="redirect">
+          <a href="register" class="new-user">New User?</a>
+          <a href="" class="new-user">Forgot Password</a>
+        </div>
+      </form>
+      <img src="../../assets/login.png" alt="" class="login-image" />
+    </div>
+  </div>
+</div>

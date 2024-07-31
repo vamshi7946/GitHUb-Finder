@@ -1,0 +1,18 @@
+.cards-container{
+    background-color: #2e263b;
+    height:max-content;
+    padding: 5%;
+    display:ruby-text;
+}
+.cards-inner-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 25px;
+}
+.btn-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80vw;
+}

@@ -1,0 +1,41 @@
+<div class="register-outer-container">
+  <div class="register-container">
+    <p class="register-heading">Register here</p>
+    <div class="register-inner-container">
+      <form
+        class="form register-form"
+        [formGroup]="registerForm"
+        (submit)="handleRegister()"
+      >
+        <input
+          type="text"
+          class="username input-field my-2"
+          formControlName="username"
+          placeholder=" Username"
+          required
+        />
+        <input
+          type="email"
+          class="email my-2"
+          formControlName="email"
+          placeholder=" Email"
+          required
+        />
+        <input
+          type="password"
+          class="password my-2"
+          formControlName="password"
+          placeholder=" Password"
+          required
+        />
+        <button class="btn btn-outline-info submit-button my-2">
+          Register
+        </button>
+        <div class="redirect my-2">
+          <a href="login" class="new-user">Already have account?</a>
+        </div>
+      </form>
+      <img src="../../assets/login.png" alt="" class="register-image" />
+    </div>
+  </div>
+</div>

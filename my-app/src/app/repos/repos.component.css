@@ -1,0 +1,66 @@
+.repo-container{
+    background-color: rgb(33, 29, 54);
+    padding: 25px 15px;
+    margin-bottom: 15px;
+}
+.repo-id{
+    color: aliceblue;
+    font-size: 25px;
+}
+.repo-link-icon{
+    height: 15px;
+    width: 15px;
+}
+.repo-name{
+    color: aliceblue;
+    font-size: 15px;
+    margin-left: 5px;
+    text-decoration: none;
+    line-height: 25px;
+}
+.repo-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: baseline;
+}
+.repo-description{
+    color: aliceblue;
+    font-size: 12px;
+}
+.repo-visits{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.watchers-container{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    text-align: center;
+    margin-right: 25px;
+    font-size: 11px;
+    border:1px solid #fff;
+    height: 25px;
+    width: auto;
+    padding: 2px 15px;
+    border-radius: 10px;
+}
+.watchers{
+    color: #74c0FC;
+}
+.stargazers{
+    color: hsl(122, 77%, 52%);
+}
+.open-issues{
+    color: hsl(38, 65%, 52%);
+}
+.fork{
+    color: hsl(56, 84%, 53%);
+}
+.repo-icon{
+    height: 12px;
+    width: 12px;
+    margin-right: 5px;
+    padding-top: 3px;
+}

@@ -1,0 +1,35 @@
+.user-icon{
+    height: 60px;
+    width: 60px;
+}
+.card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: center;
+    height: 80px;
+    width: 300px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #181616;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+}
+.user-name{
+    color: #fff;
+    font-weight:500;
+    line-height: 0;
+    margin-top: 20px;
+}
+.visit-tag{
+    color: antiquewhite;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.text-container{
+    line-height: 8px;
+    height: auto;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}

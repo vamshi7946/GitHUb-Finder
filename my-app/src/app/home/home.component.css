@@ -1,0 +1,63 @@
+.home-outer-container{
+    background-color: #2e263b;
+}
+.home-contianer{
+    height: 92vh;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.floating-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.git-name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0px;
+    padding: 20px 50px;
+}
+.g-tag{
+    height: 200px;
+    width: 200px;
+}
+.i-tag{
+    display: inline-block;
+  width: auto;
+    height: 150px;
+}
+.t-tag{
+    padding-top: 15px;
+    height: 180px;
+    display: inline-block;
+  width: 80px;
+  margin-right: 5px;
+
+}
+.f-tag{
+    width: 100px;
+    height: 200px;
+}
+.search-icon{
+    display: inline-block;
+    height: 150px;
+    transform: rotate(180deg);
+}
+.n-tag{
+    display: inline-block;
+    height: 150px;
+}
+.e-tag{
+    display: inline-block;
+    height: 150px;
+}
+.home-text{
+    width: 80vw;
+    text-align: center;
+    color:#e0e454;
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
